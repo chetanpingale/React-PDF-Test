@@ -1,0 +1,227 @@
+// Define a color variable
+$color-white: #FFFFFF;
+$font-family: 'Open Sans, Source Sans Pro, Roboto Slab, Gill Sans and Lora';
+.frame {
+  background: $color-white;
+  //@media only screen
+  //and (min-device-width: 768px)
+  //and (-webkit-min-device-pixel-ratio: 1) {
+    position: relative;
+    height: 1089.5px;
+    //width: 1440px;
+  //}
+}
+.left_bar {
+  position: absolute;
+  width: 384px;
+  height: 1090px;
+  left: 0px;
+  top: 0px;
+  background: #070D59;
+}
+
+.logo_sm_white {
+  position: absolute;
+  width: 208px;
+  height: 37px;
+  left: 53px;
+  top: 70px;
+
+  background: url('../components/logos/logo_sm_white.png');
+}
+
+.files {
+  position: absolute;
+  width: 45px;
+  height: 32px;
+  left: 53px;
+  top: 158px;
+
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  /* identical to box height, or 175% */
+
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.27);
+}
+
+.left_menu_button {
+  position: absolute;
+  width: 205px;
+  height: 63px;
+  left: 54px;
+}
+
+.left_menu_button_active {
+  position: absolute;
+  width: 344px;
+  height: 82px;
+  left: 20px;
+  top: 199px;
+
+  background: #5893D4;
+  opacity: 0.8;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.active_group {
+  position: absolute;
+  width: 205px;
+  height: 63px;
+  left: 34px;
+  top: 9px;
+}
+
+.left_menu_button_default_icon {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 9px;
+  background: url('../components/logos/DocumentIcon.png');
+}
+.left_menu_button_default_title {
+  position: absolute;
+  width: 170px;
+  height: 63px;
+  left: 35px;
+  top: 0;
+
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  /* or 143% */
+
+  color: $color-white;
+}
+.left_menu_button_icon {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 34px;
+  top: 18px;
+  background: url('../components/logos/DocumentIcon.png');
+}
+.left_menu_button_title {
+  position: absolute;
+  width: 170px;
+  height: 63px;
+  left: 69px;
+  top: 9px;
+
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  /* or 143% */
+
+  color: $color-white;
+}
+
+.upload_files_button {
+  position: absolute;
+  width: 305px;
+  height: 70px;
+  left: 39px;
+  top: 987px;
+
+  background: #F7B633;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.upload_files_button_icon {
+  position: absolute;
+  width: 139px;
+  height: 37px;
+  left: 59px;
+  top: 16px;
+
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: $color-white;
+  background: url('../components/logos/CloudIcon.png');
+  background-repeat-x: no-repeat !important;
+  background-repeat-y: no-repeat !important;
+}
+
+.upload_files_button_title {
+  position: absolute;
+  width: 139px;
+  height: 37px;
+  left: 106px;
+  top: 17px;
+
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: $color-white;
+}
+
+
+
+.right_bar {
+  position: absolute;
+  //width: 2496px;
+  height: 2203px;
+  left: 384px;
+  top: 0px;
+
+  background: #F6F6F6;
+  opacity: 0.5;
+}
+
+.selected_document_icon {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 80px;
+  top: 68px;
+  background: url('../components/logos/DocumentIconLarge.png');
+}
+.selected_document_title {
+  position: absolute;
+  //width: 757px;
+  height: 41px;
+  left: 145px;
+  top: 70px;
+
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+
+  color: #2D1F3F;
+}
+
+.upload_button {
+  display: none;
+}
+.pdf_container {
+  position: absolute;
+  width: 634px;
+  height: 802px;
+  left: 80px;
+  top: 158px;
+
+  background: $color-white;
+  border: 10px solid #FF0000;
+  box-sizing: border-box;
+}
