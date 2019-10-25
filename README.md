@@ -1,15 +1,12 @@
 # react-pdf-test
 
-`Run Below Commands`
+Run Below Commands
 
-`npm install`
+yarn install
 
+yarn start:dev
 
-`To start run - npm run start:dev`
-
-
-
-`http://localhost:3000/`
+http://localhost:3000/
 
 
 
